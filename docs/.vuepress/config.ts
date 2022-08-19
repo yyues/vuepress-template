@@ -20,8 +20,9 @@ export default defineUserConfig({
             },
         }),
     ],
+    port: 5472,
     theme: defaultTheme({
         navbar: [{text: '首页', link: '/'}, {text: 'React', link: '/React/index.html'}],
-        sidebar: [{text: 'React', link: '/React'}]
+        sidebar: [{text: 'React', link: '/React/index.html'}]
     })
 })
